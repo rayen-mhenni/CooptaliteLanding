@@ -84,28 +84,28 @@ const Footer = () => {
                                 </div>
                             </div>
                         </Col>
-                        <div className="col-lg-8">
-                            <Nav className="list-inline d-sm-flex justify-content-between footer-link mb-0">
-                                <Nav.Item className="list-inline-item">
-                                    <Nav.Link href="#home">Home</Nav.Link>
+                        <div className="col-lg-8 mt-5">
+                            <Nav className="list-inline d-sm-flex justify-content-between footer-link mb-0 nav nav-color">
+                                <Nav.Item className="list-inline-item nav-color">
+                                    <Nav.Link href="#home"> <span className='nav-color'> Home</span></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item className="list-inline-item">
-                                    <Nav.Link href="#about">About Us</Nav.Link>
+                                    <Nav.Link href="#about"><span className='nav-color'>About Us</span></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item className="list-inline-item">
-                                    <Nav.Link href="#features">Features</Nav.Link>
+                                    <Nav.Link href="#features"><span className='nav-color'>Features</span></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item className="list-inline-item">
-                                    <Nav.Link href="#pricing">Pricing</Nav.Link>
+                                    <Nav.Link href="#pricing"><span className='nav-color'>Pricing</span></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item className="list-inline-item">
-                                    <Nav.Link href="#app">Application</Nav.Link>
+                                    <Nav.Link href="#app"><span className='nav-color'>Application</span></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item className="list-inline-item">
-                                    <Nav.Link href="#team">Team</Nav.Link>
+                                    <Nav.Link href="#team"><span className='nav-color'>Team</span></Nav.Link>
                                 </Nav.Item>
                                 <Nav.Item className="list-inline-item">
-                                    <Nav.Link href="#contact">Contact</Nav.Link>
+                                    <Nav.Link href="#contact"><span className='nav-color'>Contact</span></Nav.Link>
                                 </Nav.Item>
                             </Nav>
                         </div>

@@ -41,9 +41,9 @@ const Application = () => {
           <Row>
             <Col lg={12}>
               <div className="swiper swiper-container swiper-container1">
-                <div className="fream-phone">
+                {/* <div className="fream-phone">
                   <Image src={phoneFream} alt="" fluid />
-                </div>
+                </div> */}
                 <div className="swiper-wrapper">
                   <Swiper
                     loop={true}

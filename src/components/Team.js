@@ -65,7 +65,7 @@ const Team = () => {
                         <img src={team2} />
                       </div>
                       <h3>Oussama Hassan Bannour</h3>
-                      <p>Developer</p>
+                      <p>Techlead</p>
                       <div class="icons">
                         <a href="#">
                           <i className="mdi mdi-twitter f-24 align-middle "></i>
@@ -89,7 +89,7 @@ const Team = () => {
                         <img src={team3} />
                       </div>
                       <h3>Rayen Mhenni</h3>
-                      <p>Developer</p>
+                      <p>Techlead</p>
                       <div class="icons">
                         <a href="#">
                           <i className="mdi mdi-twitter f-24 align-middle "></i>

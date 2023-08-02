@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom';
 
 // import Image
 import logoLight from "../assets/images/logo-light.png";
-import logoDark from "../assets/images/logo.png";
+import logoDark from "../assets/images/logo-dark.png";
 
 const Navbar1 = () => {
 
@@ -89,8 +89,8 @@ const Navbar1 = () => {
                     id="navbar">
                     <Container fluid>
                         <Navbar.Brand href="index-1.html" className="logo text-uppercase">
-                            <img src={logoLight} className="logo-light" alt="" height="80" />
-                            <img src={logoDark} className="logo-dark" alt="" height="80" />
+                            <img src={logoLight} className="logo-light" alt="" height="50" />
+                            <img src={logoDark} className="logo-dark" alt="" height="40" />
                         </Navbar.Brand>
 
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"

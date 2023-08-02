@@ -4105,8 +4105,8 @@ body[data-layout-mode="dark"] .team {
 
 @media (max-width: 1440px) {
   .cta::before {
-    bottom: -110px;
-    left: 50%;
+    bottom: 29px;
+    left: 2%;
   }
 }
 

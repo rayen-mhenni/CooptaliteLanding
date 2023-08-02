@@ -1,19 +1,14 @@
-import React from 'react'
-import {
-  Container,
-  Row,
-  Col
-} from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 // import Images
-import team1 from "../assets/images/team/team-1.jpg"
-import team2 from "../assets/images/team/team-2.jpg"
-import team3 from "../assets/images/team/team-3.jpg"
-import team4 from "../assets/images/team/team-4.jpg"
-import appStore from "../assets/images/img-appstore.png"
-import googleplay from "../assets/images/img-googleplay.png"
+import team1 from "../assets/images/team/team-1.jpg";
+import team2 from "../assets/images/team/team-2.jpg";
+import team3 from "../assets/images/team/team-3.jpg";
+import team4 from "../assets/images/team/team-4.jpg";
+import appStore from "../assets/images/img-appstore.png";
+import googleplay from "../assets/images/img-googleplay.png";
 
 const Team = () => {
   return (
@@ -32,9 +27,7 @@ const Team = () => {
           <Row className="justify-content-center">
             <Col lg={3} md={6}>
               <div className="team-box">
-                <Row className="justify-content-end">
-
-                </Row>
+                <Row className="justify-content-end"></Row>
               </div>
             </Col>
 
@@ -139,10 +132,11 @@ const Team = () => {
           <Row>
             <Col xl={5} lg={10}>
               <div className="py-5">
-                <h1 className="display-4">Build Your ideal workspace today.</h1>
+                <h1 className="display-4">
+                  What are you waiting for to get started?
+                </h1>
                 <p className="text-muted mt-3 f-18">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure distinctio vero facilis numquam sapiente!
-                  Eaque inventore eveniet repellendus quod maiores nulla.
+                  You need skills, We find talent.
                 </p>
                 <div className="d-flex mt-4">
                   <div className="app-store">
@@ -167,7 +161,7 @@ const Team = () => {
         </Container>
       </section>
     </React.Fragment>
-  )
-}
+  );
+};
 
 export default Team;

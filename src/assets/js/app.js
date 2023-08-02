@@ -1,4 +1,4 @@
-// Appspery app landing Template
+// Cooptalite app landing Template
 
 /********************* Menu Js **********************/
 

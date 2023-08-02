@@ -32,7 +32,7 @@ const section = () => {
                     data-period="2000">
                     <Typewriter
                       options={{
-                        strings: ['Appspery'],
+                        strings: ['Cooptalite'],
                         autoStart: true,
                         loop: true,
                       }} />

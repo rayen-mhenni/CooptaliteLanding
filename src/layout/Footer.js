@@ -40,7 +40,7 @@ const Footer = () => {
 
     const setColor = (theme) => {
         const colorOpt = document.getElementById('color-opt');
-        colorOpt.href = `/appspery/react/css/colors/${theme}.css`;
+        colorOpt.href = `/Cooptalite/react/css/colors/${theme}.css`;
     };
 
     // Switcher
@@ -124,7 +124,7 @@ const Footer = () => {
                     <Row className="justify-content-center">
                         <Col lg={6}>
                             <p className="mb-0 text-center text-muted">
-                                © {new Date().getFullYear()} Appspery. Design with <i className="mdi mdi-heart text-danger"></i> by
+                                © {new Date().getFullYear()} Cooptalite. Design with <i className="mdi mdi-heart text-danger"></i> by
                                 <Link to="https://themesdesign.in/" target="_blank" className="text-muted"> Themesdesign.</Link>
                             </p>
                         </Col>

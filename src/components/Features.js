@@ -8,7 +8,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 // import images
-import features from "../assets/images/features.png";
+import features from "../assets/images/features.jpg";
 
 
 AOS.init({

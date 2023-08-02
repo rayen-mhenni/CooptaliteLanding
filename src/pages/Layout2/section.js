@@ -1,26 +1,18 @@
-import React from 'react'
-import {
-  Container,
-  Row,
-  Col,
-  Badge
-} from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import React from "react";
+import { Container, Row, Col, Badge } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Autoplay } from "swiper";
 
-
 // import images
-import img1 from "../../assets/images/testi/ss/img1.png"
-import img2 from "../../assets/images/testi/ss/img2.png"
-import img3 from "../../assets/images/testi/ss/img3.png"
-import img4 from "../../assets/images/testi/ss/img4.png"
-import img5 from "../../assets/images/testi/ss/img5.png"
-import img6 from "../../assets/images/testi/ss/img6.png"
-import img7 from "../../assets/images/testi/ss/img7.png"
-import img8 from "../../assets/images/testi/ss/img8.png"
-
-
+import img1 from "../../assets/images/testi/ss/img1.png";
+import img2 from "../../assets/images/testi/ss/img2.png";
+import img3 from "../../assets/images/testi/ss/img3.png";
+import img4 from "../../assets/images/testi/ss/img4.png";
+import img5 from "../../assets/images/testi/ss/img5.png";
+import img6 from "../../assets/images/testi/ss/img6.png";
+import img7 from "../../assets/images/testi/ss/img7.png";
+import img8 from "../../assets/images/testi/ss/img8.png";
 
 const section = () => {
   return (
@@ -35,13 +27,27 @@ const section = () => {
           <Row className="align-items-center justify-content-between">
             <Col md={6}>
               <div className="home-heading">
-                <Badge bg="soft-primary" className="rounded-pill mb-3">Cooptalite plateform</Badge>
-                <h3>Get Fast & Secure Access To All Your Favorite Content</h3>
+                <Badge bg="soft-primary" className="rounded-pill mb-3">
+                  Cooptalite plateform
+                </Badge>
+                <h3>a network of talents at the service of all</h3>
                 <p className="home-title"></p>
-                <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut labore et dolore.</p>
+                <p className="text-muted">
+                  Growing together, hand in hand, a talent alliance for a bright
+                  future through cooptation. thats the key to our collective
+                  success.
+                </p>
                 <div className="btns-group mb-25">
-                  <button to="#" className="btn bg-gradiant">Free Download</button>
-                  <button to="#" className="btn bg-outline-gradiant" style={{ marginLeft: '4px' }}>Buy Only for $3.99</button>
+                  {/* <button to="#" className="btn bg-gradiant">
+                    Free Download
+                  </button> */}
+                  <button
+                    to="#"
+                    className="btn bg-outline-gradiant"
+                    style={{ marginLeft: "4px" }}
+                  >
+                    Request a demo
+                  </button>
                 </div>
               </div>
             </Col>
@@ -65,11 +71,15 @@ const section = () => {
                     <SwiperSlide className="swiper-slide border-radius">
                       <div className="app-screenshot-item text-center d-flex justify-content-center">
                         <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img1} title=""></Link>
+                          <Link
+                            className="mfp-image img-fluid"
+                            to={img1}
+                            title=""
+                          ></Link>
                         </div>
                         <div className="screenshot-img">
                           <Link to={img1} className="lightbox img-fluid">
-                            <img src={img1} alt="" className='img-fluid' />
+                            <img src={img1} alt="" className="img-fluid" />
                           </Link>
                         </div>
                       </div>
@@ -77,7 +87,11 @@ const section = () => {
                     <SwiperSlide className="swiper-slide border-radius">
                       <div className="app-screenshot-item text-center d-flex justify-content-center">
                         <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img2} title=""></Link>
+                          <Link
+                            className="mfp-image img-fluid"
+                            to={img2}
+                            title=""
+                          ></Link>
                         </div>
                         <div className="screenshot-img">
                           <Link to={img2} className="lightbox img-fluid">
@@ -89,7 +103,11 @@ const section = () => {
                     <SwiperSlide className="swiper-slide border-radius">
                       <div className="app-screenshot-item text-center d-flex justify-content-center">
                         <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img3} title=""></Link>
+                          <Link
+                            className="mfp-image img-fluid"
+                            to={img3}
+                            title=""
+                          ></Link>
                         </div>
                         <div className="screenshot-img">
                           <Link to={img3} className="lightbox img-fluid">
@@ -101,7 +119,11 @@ const section = () => {
                     <SwiperSlide className="swiper-slide border-radius">
                       <div className="app-screenshot-item text-center d-flex justify-content-center">
                         <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img4} title=""></Link>
+                          <Link
+                            className="mfp-image img-fluid"
+                            to={img4}
+                            title=""
+                          ></Link>
                         </div>
                         <div className="screenshot-img">
                           <Link to={img4} className="lightbox img-fluid">
@@ -113,7 +135,11 @@ const section = () => {
                     <SwiperSlide className="swiper-slide border-radius">
                       <div className="app-screenshot-item text-center d-flex justify-content-center">
                         <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img5} title=""></Link>
+                          <Link
+                            className="mfp-image img-fluid"
+                            to={img5}
+                            title=""
+                          ></Link>
                         </div>
                         <div className="screenshot-img">
                           <Link to={img5} className="lightbox img-fluid">
@@ -125,7 +151,11 @@ const section = () => {
                     <SwiperSlide className="swiper-slide border-radius">
                       <div className="app-screenshot-item text-center d-flex justify-content-center">
                         <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img6} title=""></Link>
+                          <Link
+                            className="mfp-image img-fluid"
+                            to={img6}
+                            title=""
+                          ></Link>
                         </div>
                         <div className="screenshot-img">
                           <Link to={img6} className="lightbox img-fluid">
@@ -137,7 +167,11 @@ const section = () => {
                     <SwiperSlide className="swiper-slide border-radius">
                       <div className="app-screenshot-item text-center d-flex justify-content-center">
                         <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img7} title=""></Link>
+                          <Link
+                            className="mfp-image img-fluid"
+                            to={img7}
+                            title=""
+                          ></Link>
                         </div>
                         <div className="screenshot-img">
                           <Link to={img7} className="lightbox img-fluid">
@@ -149,7 +183,11 @@ const section = () => {
                     <SwiperSlide className="swiper-slide border-radius">
                       <div className="app-screenshot-item text-center d-flex justify-content-center">
                         <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img7} title=""></Link>
+                          <Link
+                            className="mfp-image img-fluid"
+                            to={img7}
+                            title=""
+                          ></Link>
                         </div>
                         <div className="screenshot-img">
                           <Link to={img7} className="lightbox img-fluid">
@@ -161,7 +199,11 @@ const section = () => {
                     <SwiperSlide className="swiper-slide border-radius">
                       <div className="app-screenshot-item text-center d-flex justify-content-center">
                         <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img8} title=""></Link>
+                          <Link
+                            className="mfp-image img-fluid"
+                            to={img8}
+                            title=""
+                          ></Link>
                         </div>
                         <div className="screenshot-img">
                           <Link to={img8} className="lightbox img-fluid">
@@ -189,7 +231,7 @@ const section = () => {
         </Row>
       </Container>
     </React.Fragment>
-  )
-}
+  );
+};
 
 export default section;

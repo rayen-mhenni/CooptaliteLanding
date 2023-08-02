@@ -123,7 +123,7 @@ const Navbar1 = () => {
                                 </li>
                             </ul>
                             <div className="ms-auto">
-                                <Link to="#" className="btn bg-gradiant">Login</Link>
+                                <Link to="#" className="btn bg-gradiant">Contact us</Link>
                             </div>
                         </div>
                     </Container>

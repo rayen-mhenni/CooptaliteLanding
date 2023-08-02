@@ -86,7 +86,7 @@ const section = () => {
           <Row className="align-items-center justify-content-between">
             <Col md={7}>
               <div className="home-heading">
-                <h3 className="text-uppercase">Appspery</h3>
+                <h3 className="text-uppercase">Cooptalite</h3>
                 <h4 className="home-title">The Perfect Choice for your Mobile App Presentation</h4>
                 <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
                   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut labore et dolore.</p>

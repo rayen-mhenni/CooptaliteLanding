@@ -1,5 +1,5 @@
 /*
-Template Name: Appspery - Responsive Bootstrap 5 Admin Dashboard
+Template Name: Cooptalite - Responsive Bootstrap 5 Admin Dashboard
 Author: Themesdesign
 Website: https://themesdesign.in/
 File: Bootstrap Toasts Js

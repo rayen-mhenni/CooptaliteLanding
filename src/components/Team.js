@@ -137,7 +137,7 @@ const Team = () => {
       <section className="section cta bg-light" id="cta">
         <Container className="position-relative">
           <Row>
-            <Col xl={6} lg={10}>
+            <Col xl={5} lg={10}>
               <div className="py-5">
                 <h1 className="display-4">Build Your ideal workspace today.</h1>
                 <p className="text-muted mt-3 f-18">

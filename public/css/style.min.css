@@ -2967,7 +2967,7 @@ body[data-layout-mode="dark"] .home-6 .bg-overlay {
   backface-visibility: hidden;
 }
 
-.mockup video {
+.mockup .video {
   display: block;
   position: absolute;
   top: 8%;

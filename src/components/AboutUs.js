@@ -1,9 +1,5 @@
-import React from 'react'
-import {
-  Container,
-  Row,
-  Col
-} from 'react-bootstrap';
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
 // import images
 import mTop from "../assets/images/about/macbook-top.svg";
@@ -22,9 +18,15 @@ const AboutUs = () => {
                 <div className="part top">
                   <img src={mTop} alt="" className="img-fluid top" />
                   <img src={mCover} alt="" className="img-fluid cover" />
-                  <video autoPlay muted controls loop>
-                    <source src={about} type="video/mp4" />
-                  </video>
+                  <iframe
+                    className="video"
+                    width="640"
+                    height="360"
+                    src="https://video.recordonce.com/embed/ZL7KxJp9gUu"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
                 </div>
                 <div className="part bottom">
                   <img src={mCover} alt="" className="img-fluid cover" />
@@ -36,7 +38,7 @@ const AboutUs = () => {
         </Container>
       </section>
     </React.Fragment>
-  )
-}
+  );
+};
 
 export default AboutUs;

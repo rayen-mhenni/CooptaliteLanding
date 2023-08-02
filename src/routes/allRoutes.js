@@ -9,7 +9,7 @@ import Layout6 from '../pages/Layout6/layout6';
 
 const authProtectedRoutes = [
     // Lauout1
-    { path: "/", component: <Layout1/> },
+    { path: "/", component: <Layout2/> },
     { path: "/index-1" , component: <Layout1/> },
 
     // Layout2

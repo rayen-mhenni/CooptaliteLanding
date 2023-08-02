@@ -35,7 +35,7 @@ const section = () => {
           <Row className="align-items-center justify-content-between">
             <Col md={6}>
               <div className="home-heading">
-                <Badge bg="soft-primary" className="rounded-pill mb-3">Android Device</Badge>
+                <Badge bg="soft-primary" className="rounded-pill mb-3">Cooptalite plateform</Badge>
                 <h3>Get Fast & Secure Access To All Your Favorite Content</h3>
                 <p className="home-title"></p>
                 <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut labore et dolore.</p>

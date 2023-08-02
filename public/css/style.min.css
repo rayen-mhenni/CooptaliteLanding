@@ -4257,7 +4257,7 @@ body[data-layout-mode="dark"] .bottom-footer {
   text-align: center;
   color: #000;
 }
-.Team .card {
+.Team .Teamcard {
   box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
   padding: 3.5em 1em;
   border-radius: 0.6em;
@@ -4269,27 +4269,27 @@ body[data-layout-mode="dark"] .bottom-footer {
   background-color: #fff;
 }
 
-body[data-layout-mode="dark"] .Team .card {
+body[data-layout-mode="dark"] .Teamcard {
   background-color: #17212a !important;
-  color: #fff !important;
-  border: 1px solid rgba(101, 111, 224, 0.3);
+  color: #000 !important;
+  border: 1px solid rgba(101, 111, 224, 0.3) !important;
   border-color: #00aaa8 !important;
 }
 
-.Team .card .img-container {
+.Team .Teamcard .img-container {
   max-width: 17rem;
   max-height: 17rem;
   padding: 0.5em;
   margin: 0 auto 4em auto;
   object-fit: cover;
 } 
-.Team .card img {
+.Team .Teamcard img {
   width: 100%;
 }
-.Team .card h3 {
+.Team .Teamcard h3 {
   font-weight: 500;
 }
-.Team .card p {
+.Team .Teamcard p {
   font-weight: 300;
   text-transform: uppercase;
   margin: 0.5em 0 2em 0;
@@ -4302,19 +4302,19 @@ body[data-layout-mode="dark"] .Team .card {
   display: flex;
   justify-content: space-between;
 }
-.Team .card a {
+.Team .Teamcard a {
   text-decoration: none;
   color: inherit;
   font-size: 1.4em;
 }
-.Team .card:hover {
+.Team .Teamcard:hover {
   background: linear-gradient(180deg, rgba(0,170,168,1) 2%, rgba(0,170,168,0.43461134453781514) 100%);
   color: #ffffff;
 }
-.Team .card:hover .icons{
+.Team .Teamcard:hover .icons{
   color: #ffffff;
 }
-.Team .card:hover .img-container {
+.Team .Teamcard:hover .img-container {
   transform: scale(1.15);
 }
 @media screen and (min-width: 768px) {

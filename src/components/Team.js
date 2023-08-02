@@ -36,7 +36,7 @@ const Team = () => {
                 <Row className='Team'>
 
                   <Col md={4}>
-                    <div class="card">
+                    <div class="Teamcard">
                       <div class="img-container">
                         <img src={team1} />
                       </div>
@@ -60,7 +60,7 @@ const Team = () => {
                   </Col>
 
                   <Col md={4}>
-                    <div class="card">
+                    <div class="Teamcard">
                       <div class="img-container">
                         <img src={team2} />
                       </div>
@@ -84,7 +84,7 @@ const Team = () => {
                   </Col>
 
                   <Col md={4}>
-                    <div class="card">
+                    <div class="Teamcard">
                       <div class="img-container">
                         <img src={team3} />
                       </div>

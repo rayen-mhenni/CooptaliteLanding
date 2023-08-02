@@ -8,7 +8,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 // import images
-import home4 from "../assets/images/home/home-4.png";
+import home4 from "../assets/images/home/home-4.jpg";
 import img1 from "../assets/images/user/img-1.jpg"
 import img2 from "../assets/images/user/img-2.jpg"
 import img3 from "../assets/images/user/img-3.jpg"

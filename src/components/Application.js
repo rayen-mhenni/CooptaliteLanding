@@ -38,8 +38,20 @@ const Application = () => {
                 </div>
                 <div className="swiper-wrapper">
                   <Swiper
+                    breakpoints={{
+                      // when window width is >= 640px
+                      300: {
+
+                        slidesPerView: 2,
+                      },
+                      // when window width is >= 768px
+                      768: {
+
+                        slidesPerView: 5,
+                      },
+                    }}
                     loop={true}
-                    slidesPerView={5}
+                    // slidesPerView={5}
                     spaceBetween={50}
                     centeredSlides={true}
                     speed={5000}

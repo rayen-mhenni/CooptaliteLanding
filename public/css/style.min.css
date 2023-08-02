@@ -4267,13 +4267,18 @@ body[data-layout-mode="dark"] .bottom-footer {
   cursor: pointer;
   transition: 0.3s;
   background-color: #fff;
+  margin-bottom: 1rem;
 }
 
-body[data-layout-mode="dark"] .Teamcard {
+body[data-layout-mode="dark"] .Team .Teamcard{
   background-color: #17212a !important;
-  color: #000 !important;
+  color: #fff !important;
   border: 1px solid rgba(101, 111, 224, 0.3) !important;
   border-color: #00aaa8 !important;
+}
+
+body[data-layout-mode="dark"] .Team .Teamcard h3{
+  color: #fff !important;
 }
 
 .Team .Teamcard .img-container {
@@ -4339,5 +4344,6 @@ body[data-layout-mode="dark"] .Teamcard {
     flex: 0 0 33.33%;
     max-width: 33.33%;
     padding: 0 1em;
+    margin-bottom: 1em;
   }
 }

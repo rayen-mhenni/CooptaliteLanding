@@ -3480,7 +3480,7 @@ body[data-layout-mode="dark"] .work {
   margin: auto;
   box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.07);
   background-color: #ffffff;
-  border: 5px solid #283039;
+  /* border: 5px solid #283039; */
 }
 .team .tab-container .wrapper .tab .box-tab .effect img {
   position: relative;

@@ -8,9 +8,9 @@ import { Link } from 'react-router-dom';
 
 
 // import Images
-import team1 from "../assets/images/team/team-1.jpg"
-import team2 from "../assets/images/team/team-2.jpg"
-import team3 from "../assets/images/team/team-3.jpg"
+import team1 from "../assets/images/team/team-1.png"
+import team2 from "../assets/images/team/team-2.png"
+import team3 from "../assets/images/team/team-3.png"
 import team4 from "../assets/images/team/team-4.jpg"
 import appStore from "../assets/images/img-appstore.png"
 import googleplay from "../assets/images/img-googleplay.png"
@@ -24,7 +24,7 @@ const Team = () => {
             <Col lg={12}>
               <div className="sec-hd">
                 <span className="heading"></span>
-                <h2 className="sec-title">Oue Team!</h2>
+                <h2 className="sec-title">Our Team!</h2>
                 <span className="heading"></span>
               </div>
             </Col>
@@ -39,96 +39,88 @@ const Team = () => {
             </Col>
 
             <Col lg={12}>
-              <div className="tab-container effectTab-header" id="style_10">
-                <div className="wrapper">
-                  <Row>
-                    <div className="col-12 tab">
-                      <Row>
-                        <Col lg={3} sm={6} className="box-tab">
-                          <div className="effect effect-ten">
-                            <img src={team1} className="img-fluid" alt="" />
-                            <div className="tab-text">
-                              <h2>Perry Farr</h2>
-                              <p>Web Designer</p>
-                              <div className="icons-block">
-                                <Link to="#" className="social-icon-1">
-                                  <i className="mdi mdi-facebook"></i>
-                                </Link>
-                                <Link to="#" className="social-icon-2">
-                                  <i className="mdi mdi-linkedin"></i>
-                                </Link>
-                                <Link to="#" className="social-icon-3">
-                                  <i className="mdi mdi-twitter"></i>
-                                </Link>
-                              </div>
-                            </div>
-                          </div>
-                        </Col>
-                        <Col lg={3} sm={6} className="box-tab hide">
-                          <div className="effect effect-ten">
-                            <img src={team2} className="img-fluid" alt="" />
-                            <div className="tab-text">
-                              <h2>Andrew Beeson</h2>
-                              <p>CEO</p>
-                              <div className="icons-block">
-                                <Link to="#" className="social-icon-1">
-                                  <i className="mdi mdi-facebook"></i>
-                                </Link>
-                                <Link to="#" className="social-icon-2">
-                                  <i className="mdi mdi-linkedin"></i>
-                                </Link>
-                                <Link to="#" className="social-icon-3">
-                                  <i className="mdi mdi-twitter"></i>
-                                </Link>
-                              </div>
-                            </div>
-                          </div>
-                        </Col>
-                        <Col lg={3} sm={6} className="box-tab hide">
-                          <div className="effect effect-ten">
-                            <img src={team3} className="img-fluid" alt="" />
-                            <div className="tab-text">
-                              <h2>Daniel Cindric</h2>
-                              <p>Devloper</p>
-                              <div className="icons-block">
-                                <Link to="#" className="social-icon-1">
-                                  <i className="mdi mdi-facebook"></i>
-                                </Link>
-                                <Link to="#" className="social-icon-2">
-                                  <i className="mdi mdi-linkedin"></i>
-                                </Link>
-                                <Link to="#" className="social-icon-3">
-                                  <i className="mdi mdi-twitter"></i>
-                                </Link>
-                              </div>
-                            </div>
-                          </div>
-                        </Col>
-                        <Col lg={3} sm={6} className="box-tab hide">
-                          <div className="effect effect-ten">
-                            <img src={team4} className="img-fluid" alt="" />
-                            <div className="tab-text">
-                              <h2>Sandra Kraj</h2>
-                              <p>HR</p>
-                              <div className="icons-block">
-                                <Link to="#" className="social-icon-1">
-                                  <i className="mdi mdi-facebook"></i>
-                                </Link>
-                                <Link to="#" className="social-icon-2">
-                                  <i className="mdi mdi-linkedin"></i>
-                                </Link>
-                                <Link to="#" className="social-icon-3">
-                                  <i className="mdi mdi-twitter"></i>
-                                </Link>
-                              </div>
-                            </div>
-                          </div>
-                        </Col>
-                      </Row>
+              <section>
+                <Row className='Team'>
+
+                  <Col md={4}>
+                    <div class="card">
+                      <div class="img-container">
+                        <img src={team1} />
+                      </div>
+                      <h3>Nejd Kali</h3>
+                      <p>CEO</p>
+                      <div class="icons">
+                        <a href="#">
+                          <i className="mdi mdi-twitter f-24 align-middle "></i>
+                        </a>
+                        <a href="#">
+
+                          <i className="mdi mdi-linkedin f-24 align-middle "></i>
+                        </a>
+                        <a href="#">
+
+                          <i className="mdi mdi-facebook f-24 align-middle "></i>
+                        </a>
+
+                      </div>
                     </div>
-                  </Row>
-                </div>
-              </div>
+                  </Col>
+
+                  <Col md={4}>
+                    <div class="card">
+                      <div class="img-container">
+                        <img src={team2} />
+                      </div>
+                      <h3>Oussama Hassan Bannour</h3>
+                      <p>Developer</p>
+                      <div class="icons">
+                        <a href="#">
+                          <i className="mdi mdi-twitter f-24 align-middle "></i>
+                        </a>
+                        <a href="#">
+
+                          <i className="mdi mdi-linkedin f-24 align-middle "></i>
+                        </a>
+                        <a href="#">
+
+                          <i className="mdi mdi-github f-24 align-middle "></i>
+                        </a>
+
+                      </div>
+                    </div>
+                  </Col>
+
+                  <Col md={4}>
+                    <div class="card">
+                      <div class="img-container">
+                        <img src={team3} />
+                      </div>
+                      <h3>Rayen Mhenni</h3>
+                      <p>Developer</p>
+                      <div class="icons">
+                        <a href="#">
+                          <i className="mdi mdi-twitter f-24 align-middle "></i>
+                        </a>
+                        <a href="#">
+
+                          <i className="mdi mdi-linkedin f-24 align-middle "></i>
+                        </a>
+                        <a href="#">
+
+                          <i className="mdi mdi-github f-24 align-middle "></i>
+                        </a>
+
+                      </div>
+                    </div>
+                  </Col>
+      
+
+
+
+
+                </Row>
+              </section>
+
             </Col>
           </Row>
         </Container>

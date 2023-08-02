@@ -3800,6 +3800,10 @@ body[data-layout-mode="dark"] .work {
   background-color: #283039 !important;
   color: #fff;
 }
+.Team-Card {
+  max-width: 250px;
+  margin-left:5rem ;
+}
 
 .team .tab-container .wrapper {
   max-width: 1140px;
@@ -3825,7 +3829,7 @@ body[data-layout-mode="dark"] .work {
   margin: auto;
   box-shadow: 0 0 15px 5px rgba(0, 0, 0, 0.07);
   background-color: #fff;
-  border: 5px solid #283039;
+  /* border: 5px solid #283039; */
 }
 
 .team .tab-container .wrapper .tab .box-tab .effect img {
@@ -4224,3 +4228,110 @@ body[data-layout-mode="dark"] .bottom-footer {
 }
 
 /*# sourceMappingURL=style.min.css.map */
+
+/* .Team {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em 1em;
+  text-align: center;
+  width: 100%;
+}
+.Team .column {
+  max-width: 100%;
+  padding: 0.5em 1em;
+} */
+
+.Team h3 {
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.Team p {
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.Team .card {
+  box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
+  padding: 3.5em 1em;
+  border-radius: 0.6em;
+  border: 1px solid rgba(101, 111, 224, 0.3);
+  border-color: #00aaa8 !important;
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #fff;
+}
+
+body[data-layout-mode="dark"] .Team .card {
+  background-color: #17212a !important;
+  color: #fff !important;
+  border: 1px solid rgba(101, 111, 224, 0.3);
+  border-color: #00aaa8 !important;
+}
+
+.Team .card .img-container {
+  max-width: 17rem;
+  max-height: 17rem;
+  padding: 0.5em;
+  margin: 0 auto 4em auto;
+  object-fit: cover;
+} 
+.Team .card img {
+  width: 100%;
+}
+.Team .card h3 {
+  font-weight: 500;
+}
+.Team .card p {
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 0.5em 0 2em 0;
+  letter-spacing: 2px;
+}
+.Team .icons {
+  width: 50%;
+  min-width: 180px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.Team .card a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.4em;
+}
+.Team .card:hover {
+  background: linear-gradient(180deg, rgba(0,170,168,1) 2%, rgba(0,170,168,0.43461134453781514) 100%);
+  color: #ffffff;
+}
+.Team .card:hover .icons{
+  color: #ffffff;
+}
+.Team .card:hover .img-container {
+  transform: scale(1.15);
+}
+@media screen and (min-width: 768px) {
+  section {
+    padding: 1em 7em;
+  }
+  .Team .column {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 0 1em;
+  }
+
+}
+@media screen and (min-width: 992px) {
+  section {
+    padding: 1em;
+  }
+  .Team .card {
+    padding: 5em 0em;
+  }
+  .Team .column {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 0 1em;
+  }
+}

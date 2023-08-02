@@ -22,7 +22,7 @@
 .mobile .phone i,
 .bg-soft-primary,
 .link-post-content i {
-  color: #656fe0 !important;
+  color: #00aaa8 !important;
 }
 
 /* BACKGROUND */
@@ -45,7 +45,7 @@ span.ring8,
 .mode-btn,
 .mobile .phone i::after,
 .home-1 .icon-text .icon {
-  background-color: #656fe0 !important;
+  background-color: #00aaa8 !important;
   color: #fff !important;
 }
 
@@ -63,14 +63,14 @@ span.ring8,
 .bg-soft-primary,
 .border-primary,
 .home-1 span.ring5 img {
-  border-color: #656fe0 !important;
+  border-color: #00aaa8 !important;
 }
 
 @media (min-width: 200px) and (max-width: 991px) {
   .navbar-custom .navbar-nav li.active a,
   .navbar-custom .navbar-nav li a:hover,
   .navbar-custom .navbar-nav li a:active {
-    color: #656fe0 !important;
+    color: #00aaa8 !important;
   }
 }
 
@@ -82,7 +82,7 @@ span.ring8,
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary .open>.dropdown-toggle.btn-primary {
-    box-shadow: 0px 8px 20px -6px rgb(101 111 224);
+    box-shadow: 0px 8px 20px -6px rgb(0 170 168);
 }
 
 .btn-outline-primary:hover,
@@ -93,27 +93,27 @@ span.ring8,
 .btn-outline-primary:not(:disabled):not(.disabled):active,
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus,
 .btn-outline-primary .open>.dropdown-toggle.btn-primary {
-  box-shadow: 0px 8px 20px -6px rgb(101 111 224);
+  box-shadow: 0px 8px 20px -6px rgb(0 170 168);
   transform: translateY(-6px);
 }
 
 .bg-gradiant,
 .bg-outline-gradiant:hover {
-  background: linear-gradient(180deg, #656fe0 0%, #869dff 100%);
-  border-color: #656fe0 !important;
+  background: linear-gradient(180deg, #00aaa8 0%, #86d1cb 100%);
+  border-color: #00aaa8 !important;
   color: #fff !important;
 }
 
 .text-gradiant {
-  background: -webkit-linear-gradient(#656fe0, #869dff);
+  background: -webkit-linear-gradient(#00aaa8, #86d1cb);
 }
 
 .home-5::before {
-  background: rgba(113, 128, 235, .5) !important;
+  background: rgba(0,170,168, .5) !important;
 }
 
 .home-2 .wave.-three {
-  background-color: rgba(113, 128, 235, .2);
+  background-color: rgba(0,170,168, .2);
 }
 
 .features .features-box:hover .features-icon,
@@ -121,7 +121,7 @@ span.ring8,
 .home-5::after,
 .home-2 .wave,
 .home-2 .wave.-two {
-  background-color: rgba(113, 128, 235, .1) !important;
+  background-color: rgba(0,170,168, .1) !important;
 }
 
 .info-img, 
@@ -137,5 +137,5 @@ span.ring8,
 
 
 body[data-layout-mode=dark] .navbar .navbar-nav .nav-link.active {
-  color: #656fe0 !important;
+  color: #00aaa8 !important;
 }

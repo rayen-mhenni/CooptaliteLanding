@@ -138,7 +138,7 @@ const Footer = () => {
                 <i className="uil uil-moon bx-spin mode-light"></i>
             </button>
 
-            {/* color changer */}
+            {/* color changer
             <div className="style-switcher" id="style-switcher" style={{ left: leftPosition }}>
                 <div>
                     <h6>Select your color</h6>
@@ -167,7 +167,7 @@ const Footer = () => {
                     <Link to="#" className="settings rounded-end" onClick={toggleSwitcher}><i className="uil uil-setting text-white"
                         style={{ display: "inline", lineHeight: "46px" }}></i></Link>
                 </div>
-            </div>
+            </div> */}
 
         </React.Fragment>
     )

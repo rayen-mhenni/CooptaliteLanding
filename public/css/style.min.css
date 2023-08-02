@@ -4011,6 +4011,10 @@ body[data-layout-mode=dark] .team {
     top: -50%
 }
 
+.nav-color {
+    color: #00aaa8 !important;
+}
+
 @media(max-width: 992px) {
     .cta .cta-phone-image {
         position: relative !important;

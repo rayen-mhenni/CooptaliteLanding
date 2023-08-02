@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import { Container, Row, Col, Navbar, Nav } from "react-bootstrap";
 
 // import Image
-import logoLight from "../assets/images/logo-light.png";
-import logoDark from "../assets/images/logo-dark.png";
+import logoLight from "../assets/images/logo.png";
+import logoDark from "../assets/images/logo.png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -58,60 +58,94 @@ const Footer = () => {
                   src={logoLight}
                   className="logo-light"
                   alt=""
-                  height="30"
+                  height="60"
                 />
-                <img src={logoDark} className="logo-dark" alt="" height="30" />
+                <img src={logoDark} className="logo-dark" alt="" height="60" />
               </Navbar.Brand>
 
-                            <div className="footer-icon mt-4 d-flex justify-content-center">
-                                <div className="d-flex align-items-center">
-                                    <Link to="#" className="me-2 avatar-sm text-center"
-                                        data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook">
-                                        <i className="mdi mdi-facebook f-24 align-middle text-primary"></i>
-                                    </Link>
-                                    <Link to="#" className="mx-2 avatar-sm text-center"
-                                        data-bs-toggle="tooltip" data-bs-placement="top" title="twitter">
-                                        <i className="mdi mdi-twitter f-24 align-middle text-primary"></i>
-                                    </Link>
-                                    <Link to="#" className="mx-2 avatar-sm text-center"
-                                        data-bs-toggle="tooltip" data-bs-placement="top" title="googleplay">
-                                        <i className="mdi mdi-google-play f-24 align-middle text-primary"></i>
-                                    </Link>
-                                    <Link to="#" className="mx-2 avatar-sm text-center">
-                                        <i className="mdi mdi-linkedin f-24 align-middle text-primary"
-                                            data-bs-toggle="tooltip" data-bs-placement="top" title="linkedin"></i>
-                                    </Link>
-                                </div>
-                            </div>
-                        </Col>
-                        <div className="col-lg-8 mt-5">
-                            <Nav className="list-inline d-sm-flex justify-content-between footer-link mb-0 nav nav-color">
-                                <Nav.Item className="list-inline-item nav-color">
-                                    <Nav.Link href="#home"> <span className='nav-color'> Home</span></Nav.Link>
-                                </Nav.Item>
-                                <Nav.Item className="list-inline-item">
-                                    <Nav.Link href="#about"><span className='nav-color'>About Us</span></Nav.Link>
-                                </Nav.Item>
-                                <Nav.Item className="list-inline-item">
-                                    <Nav.Link href="#features"><span className='nav-color'>Features</span></Nav.Link>
-                                </Nav.Item>
-                                <Nav.Item className="list-inline-item">
-                                    <Nav.Link href="#pricing"><span className='nav-color'>Pricing</span></Nav.Link>
-                                </Nav.Item>
-                                <Nav.Item className="list-inline-item">
-                                    <Nav.Link href="#app"><span className='nav-color'>Application</span></Nav.Link>
-                                </Nav.Item>
-                                <Nav.Item className="list-inline-item">
-                                    <Nav.Link href="#team"><span className='nav-color'>Team</span></Nav.Link>
-                                </Nav.Item>
-                                <Nav.Item className="list-inline-item">
-                                    <Nav.Link href="#contact"><span className='nav-color'>Contact</span></Nav.Link>
-                                </Nav.Item>
-                            </Nav>
-                        </div>
-                    </Row>
-                </Container>
-            </section>
+              <div className="footer-icon mt-4 d-flex justify-content-center">
+                <div className="d-flex align-items-center">
+                  <Link
+                    to="#"
+                    className="me-2 avatar-sm text-center"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="Facebook"
+                  >
+                    <i className="mdi mdi-facebook f-24 align-middle text-primary"></i>
+                  </Link>
+                  <Link
+                    to="#"
+                    className="mx-2 avatar-sm text-center"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="twitter"
+                  >
+                    <i className="mdi mdi-twitter f-24 align-middle text-primary"></i>
+                  </Link>
+                  <Link
+                    to="#"
+                    className="mx-2 avatar-sm text-center"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    title="googleplay"
+                  >
+                    <i className="mdi mdi-google-play f-24 align-middle text-primary"></i>
+                  </Link>
+                  <Link to="#" className="mx-2 avatar-sm text-center">
+                    <i
+                      className="mdi mdi-linkedin f-24 align-middle text-primary"
+                      data-bs-toggle="tooltip"
+                      data-bs-placement="top"
+                      title="linkedin"
+                    ></i>
+                  </Link>
+                </div>
+              </div>
+            </Col>
+            <div className="col-lg-8 mt-5">
+              <Nav className="list-inline d-sm-flex justify-content-between footer-link mb-0 nav nav-color">
+                <Nav.Item className="list-inline-item nav-color">
+                  <Nav.Link href="#home">
+                    {" "}
+                    <span className="nav-color"> Home</span>
+                  </Nav.Link>
+                </Nav.Item>
+                <Nav.Item className="list-inline-item">
+                  <Nav.Link href="#about">
+                    <span className="nav-color">About Us</span>
+                  </Nav.Link>
+                </Nav.Item>
+                <Nav.Item className="list-inline-item">
+                  <Nav.Link href="#features">
+                    <span className="nav-color">Features</span>
+                  </Nav.Link>
+                </Nav.Item>
+                <Nav.Item className="list-inline-item">
+                  <Nav.Link href="#pricing">
+                    <span className="nav-color">Pricing</span>
+                  </Nav.Link>
+                </Nav.Item>
+                <Nav.Item className="list-inline-item">
+                  <Nav.Link href="#app">
+                    <span className="nav-color">Application</span>
+                  </Nav.Link>
+                </Nav.Item>
+                <Nav.Item className="list-inline-item">
+                  <Nav.Link href="#team">
+                    <span className="nav-color">Team</span>
+                  </Nav.Link>
+                </Nav.Item>
+                <Nav.Item className="list-inline-item">
+                  <Nav.Link href="#contact">
+                    <span className="nav-color">Contact</span>
+                  </Nav.Link>
+                </Nav.Item>
+              </Nav>
+            </div>
+          </Row>
+        </Container>
+      </section>
 
       <hr />
 

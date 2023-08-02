@@ -2366,6 +2366,9 @@ body[data-layout-mode="dark"] .title h6 {
   height: auto;
   width: 230px;
 }
+.fream-phone-cover {
+  height: 422px;
+}
 
 .home-slider .swiper-container .swiper-wrapper img {
   border-radius: 20px;
@@ -2387,6 +2390,9 @@ body[data-layout-mode="dark"] .title h6 {
 
   .home-slider .swiper-container .fream-phone {
     width: 180px;
+  }
+  .fream-phone-cover {
+    height: 330px;
   }
 }
 

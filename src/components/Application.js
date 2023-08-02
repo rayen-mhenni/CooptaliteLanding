@@ -1,17 +1,11 @@
-import React from 'react';
-import {
-  Container,
-  Row,
-  Col,
-  Image
-} from 'react-bootstrap';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Navigation } from 'swiper/core';
-import { Link } from 'react-router-dom';
-
+import React from "react";
+import { Container, Row, Col, Image } from "react-bootstrap";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay, Navigation } from "swiper/core";
+import { Link } from "react-router-dom";
 
 // import images
-import phoneFream from "../assets/images/testi/phone-fream.png"
+import phoneFream from "../assets/images/testi/phone-fream.png";
 import img1 from "../assets/images/testi/ss/img1.png";
 import img2 from "../assets/images/testi/ss/img2.png";
 import img3 from "../assets/images/testi/ss/img3.png";
@@ -21,9 +15,7 @@ import img6 from "../assets/images/testi/ss/img6.png";
 import img7 from "../assets/images/testi/ss/img7.png";
 import img8 from "../assets/images/testi/ss/img8.png";
 
-
 const Application = () => {
-
   return (
     <React.Fragment>
       <section className="section app-slider bg-light" id="app">
@@ -41,9 +33,9 @@ const Application = () => {
           <Row>
             <Col lg={12}>
               <div className="swiper swiper-container swiper-container1">
-                {/* <div className="fream-phone">
-                  <Image src={phoneFream} alt="" fluid />
-                </div> */}
+                <div className="fream-phone">
+                  <img src={phoneFream} alt="" className="fream-phone-cover mfp-image" />
+                </div>
                 <div className="swiper-wrapper">
                   <Swiper
                     loop={true}
@@ -60,10 +52,16 @@ const Application = () => {
                     <SwiperSlide className="swiper-slide border-radius">
                       <div className="app-screenshot-item text-center d-flex justify-content-center">
                         <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img1} title="" > </Link>
+                          <Link
+                            className="mfp-image img-fluid"
+                            to={img1}
+                            title=""
+                          >
+                            {" "}
+                          </Link>
                         </div>
                         <div className="screenshot-img mb-4">
-                          <Link to={img1} className="lightbox img-fluid" >
+                          <Link to={img1} className="lightbox img-fluid">
                             <Image src={img1} alt="" className="img-fluid" />
                           </Link>
                         </div>
@@ -72,7 +70,11 @@ const Application = () => {
                     <SwiperSlide className="swiper-slide border-radius">
                       <div className="app-screenshot-item text-center d-flex justify-content-center">
                         <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img2} title=""></Link>
+                          <Link
+                            className="mfp-image img-fluid"
+                            to={img2}
+                            title=""
+                          ></Link>
                         </div>
                         <div className="screenshot-img mb-4">
                           <Link to={img2} className="lightbox img-fluid">
@@ -84,7 +86,11 @@ const Application = () => {
                     <SwiperSlide className="swiper-slide border-radius">
                       <div className="app-screenshot-item text-center d-flex justify-content-center">
                         <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img3} title=""></Link>
+                          <Link
+                            className="mfp-image img-fluid"
+                            to={img3}
+                            title=""
+                          ></Link>
                         </div>
                         <div className="screenshot-img mb-4">
                           <Link to={img3} className="lightbox img-fluid">
@@ -96,7 +102,11 @@ const Application = () => {
                     <SwiperSlide className="swiper-slide border-radius">
                       <div className="app-screenshot-item text-center d-flex justify-content-center">
                         <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img4} title=""></Link>
+                          <Link
+                            className="mfp-image img-fluid"
+                            to={img4}
+                            title=""
+                          ></Link>
                         </div>
                         <div className="screenshot-img mb-4">
                           <Link to={img4} className="lightbox img-fluid">
@@ -108,7 +118,11 @@ const Application = () => {
                     <SwiperSlide className="swiper-slide border-radius">
                       <div className="app-screenshot-item text-center d-flex justify-content-center">
                         <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img5} title=""></Link>
+                          <Link
+                            className="mfp-image img-fluid"
+                            to={img5}
+                            title=""
+                          ></Link>
                         </div>
                         <div className="screenshot-img mb-4">
                           <Link to={img5} className="lightbox img-fluid">
@@ -120,7 +134,11 @@ const Application = () => {
                     <SwiperSlide className="swiper-slide border-radius">
                       <div className="app-screenshot-item text-center d-flex justify-content-center">
                         <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img6} title=""></Link>
+                          <Link
+                            className="mfp-image img-fluid"
+                            to={img6}
+                            title=""
+                          ></Link>
                         </div>
                         <div className="screenshot-img mb-4">
                           <Link to={img6} className="lightbox img-fluid">
@@ -132,7 +150,11 @@ const Application = () => {
                     <SwiperSlide className="swiper-slide border-radius">
                       <div className="app-screenshot-item text-center d-flex justify-content-center">
                         <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img7} title=""></Link>
+                          <Link
+                            className="mfp-image img-fluid"
+                            to={img7}
+                            title=""
+                          ></Link>
                         </div>
                         <div className="screenshot-img mb-4">
                           <Link to={img7} className="lightbox img-fluid">
@@ -144,7 +166,11 @@ const Application = () => {
                     <SwiperSlide className="swiper-slide border-radius">
                       <div className="app-screenshot-item text-center d-flex justify-content-center">
                         <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img7} title=""></Link>
+                          <Link
+                            className="mfp-image img-fluid"
+                            to={img7}
+                            title=""
+                          ></Link>
                         </div>
                         <div className="screenshot-img mb-4">
                           <Link to={img7} className="lightbox img-fluid">
@@ -156,7 +182,11 @@ const Application = () => {
                     <SwiperSlide className="swiper-slide border-radius">
                       <div className="app-screenshot-item text-center d-flex justify-content-center">
                         <div className="app-screenshot-overlayer">
-                          <Link className="mfp-image img-fluid" to={img8} title=""></Link>
+                          <Link
+                            className="mfp-image img-fluid"
+                            to={img8}
+                            title=""
+                          ></Link>
                         </div>
                         <div className="screenshot-img mb-4">
                           <Link to={img8} className="lightbox img-fluid">
@@ -173,7 +203,7 @@ const Application = () => {
         </Container>
       </section>
     </React.Fragment>
-  )
-}
+  );
+};
 
 export default Application;

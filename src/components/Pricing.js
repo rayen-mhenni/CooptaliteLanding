@@ -26,7 +26,7 @@ const Pricing = () => {
               <div className="pricing-box text-center">
                 <div className="px-4 py-5">
                   <div className="pricing-icon text-primary">
-                    <h3>29<sup>$</sup></h3>
+                    <h3>2900<sup>$</sup></h3>
                   </div>
                   <h5 className="my-4 box-heading">Basic</h5>
                   <ul className="pricing-team pricing-list list-unstyled mt-2 mb-0">
@@ -37,7 +37,7 @@ const Pricing = () => {
                     <li className="pricing-item"><del className="text-muted">Updates</del></li>
                     <li className="pricing-item"><del className="text-muted">Premium support</del></li>
                   </ul>
-                  <Button to="#" className="btn bg-gradiant mt-4 w-100">Sign in</Button>
+                  <Button to="#" className="btn bg-gradiant mt-4 w-100">Select this offer</Button>
                 </div>
               </div>
             </Col>
@@ -45,7 +45,7 @@ const Pricing = () => {
               <div className="pricing-box pricing-active text-center">
                 <div className="px-4 py-5">
                   <div className="pricing-icon text-primary">
-                    <h3>49<sup>$</sup></h3>
+                    <h3>4900<sup>$</sup></h3>
                   </div>
                   <h5 className="my-4 box-heading">Standard</h5>
                   <ul className="pricing-team pricing-list list-unstyled mt-2 mb-0">
@@ -66,7 +66,7 @@ const Pricing = () => {
                       <del className="text-muted">Premium support</del>
                     </li>
                   </ul>
-                  <Button to="#" className="btn bg-gradiant mt-4 w-100">Sign in</Button>
+                  <Button to="#" className="btn bg-gradiant mt-4 w-100">Select this offer</Button>
                 </div>
               </div>
             </Col>
@@ -74,7 +74,7 @@ const Pricing = () => {
               <div className="pricing-box text-center">
                 <div className="px-4 py-5">
                   <div className="pricing-icon text-primary">
-                    <h3>79<sup>$</sup></h3>
+                    <h3>7900<sup>$</sup></h3>
                   </div>
                   <h5 className="my-4 box-heading">Premium</h5>
                   <ul className="pricing-team pricing-list list-unstyled mt-2 mb-0">
@@ -85,7 +85,7 @@ const Pricing = () => {
                     <li className="pricing-item"><li className="pricing-item">Updates</li></li>
                     <li className="pricing-item text-warning">Premium support</li>
                   </ul>
-                  <Button to="#" className="btn bg-gradiant mt-4 w-100">Sign in</Button>
+                  <Button to="#" className="btn bg-gradiant mt-4 w-100">Select this offer</Button>
                 </div>
               </div>
             </Col>

@@ -36,12 +36,13 @@ const Navbar1 = () => {
     navMenuRef.current.classList.toggle("collapse");
   };
 
-  const { i18n } = useTranslation();
+  const { i18n, t } = useTranslation();
 
   const handleLangUpdate = (lang) => {
     i18n.changeLanguage(lang);
     setActiveLgn(lang)
   };
+
 
   return (
     <React.Fragment>
@@ -125,25 +126,25 @@ const Navbar1 = () => {
                   className={activeItem === "Home" ? "active" : "nav-item"}
                   onClick={() => setActiveItem("Home")}
                 >
-                  <Nav.Link href="#home">Home</Nav.Link>
+                  <Nav.Link href="#home">{t("Home")}</Nav.Link>
                 </li>
                 <li
                   className={activeItem === "About Us" ? "active" : "nav-item"}
                   onClick={() => setActiveItem("About Us")}
                 >
-                  <Nav.Link href="#about">About Us</Nav.Link>
+                  <Nav.Link href="#about">{t("About Us")} </Nav.Link>
                 </li>
                 <li
                   className={activeItem === "Features" ? "active" : "nav-item"}
                   onClick={() => setActiveItem("Features")}
                 >
-                  <Nav.Link href="#features">Features</Nav.Link>
+                  <Nav.Link href="#features">{t("Features")}</Nav.Link>
                 </li>
                 <li
                   className={activeItem === "Pricing" ? "active" : "nav-item"}
                   onClick={() => setActiveItem("Pricing")}
                 >
-                  <Nav.Link href="#pricing">Pricing</Nav.Link>
+                  <Nav.Link href="#pricing">{t("Pricing")}</Nav.Link>
                 </li>
                 <li
                   className={
@@ -151,19 +152,19 @@ const Navbar1 = () => {
                   }
                   onClick={() => setActiveItem("Application")}
                 >
-                  <Nav.Link href="#app">Application</Nav.Link>
+                  <Nav.Link href="#app">{t("Application")} </Nav.Link>
                 </li>
                 <li
                   className={activeItem === "Team" ? "active" : "nav-item"}
                   onClick={() => setActiveItem("Team")}
                 >
-                  <Nav.Link href="#team">Team</Nav.Link>
+                  <Nav.Link href="#team">{t("Team")}</Nav.Link>
                 </li>
                 <li
                   className={activeItem === "Contact" ? "active" : "nav-item"}
                   onClick={() => setActiveItem("Contact")}
                 >
-                  <Nav.Link href="#contact">Contact</Nav.Link>
+                  <Nav.Link href="#contact">{t("Contact")}</Nav.Link>
                 </li>
 
 
@@ -185,7 +186,7 @@ const Navbar1 = () => {
 
               <div className="ms-auto">
                 <Link to="#" className="btn bg-gradiant">
-                  Contact us
+                {t("Contact us")}
                 </Link>
               </div>
 

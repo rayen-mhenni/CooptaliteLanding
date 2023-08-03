@@ -53,7 +53,7 @@ const Footer = () => {
         <Container>
           <Row className="justify-content-center">
             <Col lg={10} className="text-center">
-              <Navbar.Brand className="logo text-uppercase" href="index-1.html">
+              <Navbar.Brand className="logo text-uppercase" href="/">
                 <img
                   src={logoLight}
                   className="logo-light"

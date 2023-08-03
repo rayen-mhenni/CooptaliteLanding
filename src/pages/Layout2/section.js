@@ -1,8 +1,10 @@
 import React from "react";
-import { Container, Row, Col, Badge } from "react-bootstrap";
+import { Container, Row, Col, Badge, Modal } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Autoplay } from "swiper";
+import {InlineWidget} from 'react-calendly'
+
 
 // import images
 import img1 from "../../assets/images/testi/ss/img1.png";
@@ -30,7 +32,7 @@ const section = () => {
                 <Badge bg="soft-primary" className="rounded-pill mb-3">
                   Cooptalite plateform
                 </Badge>
-                <h3>a network of talents at the service of all</h3>
+                <h3>A network of talents at the service of all</h3>
                 <p className="home-title"></p>
                 <p className="text-muted">
                   Growing together, hand in hand, a talent alliance for a bright
@@ -41,13 +43,15 @@ const section = () => {
                   {/* <button to="#" className="btn bg-gradiant">
                     Free Download
                   </button> */}
-                  <button
-                    to="#"
+                  <a
+                    href="https://calendly.com/cooptalite-contact"
                     className="btn bg-outline-gradiant"
                     style={{ marginLeft: "4px" }}
+                    target="_blank" rel="noreferrer"
                   >
                     Request a demo
-                  </button>
+                  </a>
+
                 </div>
               </div>
             </Col>

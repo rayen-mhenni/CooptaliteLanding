@@ -3,7 +3,6 @@ import { Container, Row, Col, Badge, Modal } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Autoplay } from "swiper";
-import {InlineWidget} from 'react-calendly'
 
 
 // import images

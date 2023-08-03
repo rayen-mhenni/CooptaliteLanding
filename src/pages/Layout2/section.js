@@ -1,9 +1,8 @@
 import React from "react";
-import { Container, Row, Col, Badge, Modal } from "react-bootstrap";
+import { Container, Row, Col, Badge } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Autoplay } from "swiper";
-
 
 // import images
 import img1 from "../../assets/images/testi/ss/img1.png";
@@ -46,11 +45,11 @@ const section = () => {
                     href="https://calendly.com/cooptalite-contact"
                     className="btn bg-outline-gradiant"
                     style={{ marginLeft: "4px" }}
-                    target="_blank" rel="noreferrer"
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     Request a demo
                   </a>
-
                 </div>
               </div>
             </Col>

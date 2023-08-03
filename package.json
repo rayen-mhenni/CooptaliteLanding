@@ -1,9 +1,10 @@
 {
   "name": "cooptalite",
   "version": "0.1.0",
-  "homepage" : ".",
+  "homepage": ".",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
     "@iconscout/react-unicons": "^2.0.2",
     "@iconscout/unicons": "^4.0.8",
     "@testing-library/jest-dom": "^5.16.5",

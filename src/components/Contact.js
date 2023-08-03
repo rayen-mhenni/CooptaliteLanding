@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const [error, setError] = useState(false);
+  const [Success, setSuccess] = useState(false);
+  const [loading, setloading] = useState(false);
   return (
     <React.Fragment>
       <section className="contact overflow-hidden" id="contact">
@@ -19,7 +23,48 @@ const Contact = () => {
             <Col lg={8}>
               <div className="contact-box">
                 <div className="custom-form mt-4">
-                  <form method="post" name="myForm">
+                  <form
+                    name="myForm"
+                    onSubmitCapture={async (event) => {
+                      event.preventDefault();
+                      if (
+                        event.target.email?.value === undefined ||
+                        event.target.name?.value === undefined ||
+                        event.target.comments?.value === undefined ||
+                        event.target.email?.value === "" ||
+                        event.target.name?.value === "" ||
+                        event.target.comments?.value === ""
+                      ) {
+                        setError(true);
+                      } else {
+                        const templateParams = {
+                          email: event.target.email.value,
+                          name: event.target.name.value,
+                          message: event.target.comments.value,
+                        };
+                        setloading(true);
+                        await emailjs
+                          .send(
+                            "service_xgyln4i",
+                            "template_uu7b0sq",
+                            templateParams,
+                            "kX-KurubRXhqJ7G2D"
+                          )
+                          .then(async () => {
+                            setSuccess(true);
+                            setloading(false);
+                          })
+                          .catch((err) => {
+                            console.log("errror", err);
+                            setloading(false);
+                          });
+                      }
+                      setTimeout(() => {
+                        setError(false);
+                        setSuccess(false);
+                      }, 6000);
+                    }}
+                  >
                     <p id="error-msg" style={{ opacity: 1 }}>
                       {" "}
                     </p>
@@ -51,18 +96,6 @@ const Contact = () => {
                     <Row>
                       <Col lg={12}>
                         <div className="form-group">
-                          <input
-                            type="text"
-                            className="form-control contact-form"
-                            id="subject"
-                            placeholder="Your Subject.."
-                          />
-                        </div>
-                      </Col>
-                    </Row>
-                    <Row>
-                      <Col lg={12}>
-                        <div className="form-group">
                           <textarea
                             name="comments"
                             id="comments"
@@ -73,16 +106,43 @@ const Contact = () => {
                         </div>
                       </Col>
                     </Row>
+                    {error && (
+                      <div
+                        class="alert alert-danger d-flex align-items-center"
+                        role="alert"
+                      >
+                        <i className="uil uil-exclamation-triangle me-2"></i>
+
+                        <div>All fields mandatory</div>
+                      </div>
+                    )}
+                    {Success && (
+                      <div
+                        class="alert alert-success d-flex align-items-center"
+                        role="alert"
+                      >
+                        <i className="uil  uil-check-circle me-2"></i>
+
+                        <div>
+                          Your message is send, we will contact you very soon
+                        </div>
+                      </div>
+                    )}
+
                     <Row className="justify-content-center">
                       <div className="col-lg-6">
                         <div className="text-center">
-                          <input
-                            type="submit"
-                            id="submit"
-                            name="send"
-                            className="submitBnt btn btn-rounded bg-gradiant"
-                            value="Send Message"
-                          />
+                          {loading ? (
+                            <div class="spinner-border" role="status"></div>
+                          ) : (
+                            <input
+                              type="submit"
+                              id="submit"
+                              name="send"
+                              className="submitBnt btn btn-rounded bg-gradiant"
+                              value="Send Message"
+                            />
+                          )}
                         </div>
                       </div>
                     </Row>

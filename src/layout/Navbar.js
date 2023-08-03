@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import { Navbar, Nav, Container, Row, Col } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
 // import Image
@@ -8,6 +9,7 @@ import logoDark from "../assets/images/logo-dark.png";
 
 const Navbar1 = () => {
   const [activeItem, setActiveItem] = useState("Home");
+  const [activeLgn, setActiveLgn] = useState(localStorage.getItem('i18nextLng'));
 
   const [navClass, setnavClass] = useState("");
 
@@ -32,6 +34,13 @@ const Navbar1 = () => {
 
   const toggleNavMenu = () => {
     navMenuRef.current.classList.toggle("collapse");
+  };
+
+  const { i18n } = useTranslation();
+
+  const handleLangUpdate = (lang) => {
+    i18n.changeLanguage(lang);
+    setActiveLgn(lang)
   };
 
   return (
@@ -88,7 +97,7 @@ const Navbar1 = () => {
           id="navbar"
         >
           <Container fluid>
-            <Navbar.Brand href="index-1.html" className="logo text-uppercase">
+            <Navbar.Brand href="#" className="logo text-uppercase">
               <img src={logoLight} className="logo-light" alt="" height="50" />
               <img src={logoDark} className="logo-dark" alt="" height="40" />
             </Navbar.Brand>
@@ -156,12 +165,30 @@ const Navbar1 = () => {
                 >
                   <Nav.Link href="#contact">Contact</Nav.Link>
                 </li>
+
+
+
+
               </ul>
+
+              <div className='lang-nav ms-auto'>
+                <span className={activeLgn === "fr" ? "active" : "lang-item"}
+                  onClick={() => handleLangUpdate("fr")}
+                > FR</span>
+
+                <span className='fw-bolder' > | </span>
+                <span className={activeLgn === "en" ? "active" : "lang-item"}
+                  onClick={() => handleLangUpdate("en")}
+                > EN</span>
+
+              </div>
+
               <div className="ms-auto">
                 <Link to="#" className="btn bg-gradiant">
                   Contact us
                 </Link>
               </div>
+
             </div>
           </Container>
         </nav>

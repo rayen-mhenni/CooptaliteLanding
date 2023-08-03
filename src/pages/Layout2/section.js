@@ -13,8 +13,12 @@ import img5 from "../../assets/images/testi/ss/img5.png";
 import img6 from "../../assets/images/testi/ss/img6.png";
 import img7 from "../../assets/images/testi/ss/img7.png";
 import img8 from "../../assets/images/testi/ss/img8.png";
+import { useTranslation } from 'react-i18next';
 
-const section = () => {
+const Section = () => {
+
+  const { t } = useTranslation();
+
   return (
     <React.Fragment>
       <section className="home-2 home-slider" id="home">
@@ -30,12 +34,11 @@ const section = () => {
                 <Badge bg="soft-primary" className="rounded-pill mb-3">
                   Cooptalite plateform
                 </Badge>
-                <h3>A network of talents at the service of all</h3>
+                <h3>{t("A network of talents at the service of all")} </h3>
                 <p className="home-title"></p>
                 <p className="text-muted">
-                  Growing together, hand in hand, a talent alliance for a bright
-                  future through cooptation. thats the key to our collective
-                  success.
+                  
+                  {t("Growing together, hand in hand, a talent alliance for a bright future through cooptation. thats the key to our collective success.")}
                 </p>
                 <div className="btns-group mb-25">
                   {/* <button to="#" className="btn bg-gradiant">
@@ -236,4 +239,4 @@ const section = () => {
   );
 };
 
-export default section;
+export default Section;

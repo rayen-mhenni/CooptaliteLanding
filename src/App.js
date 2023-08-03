@@ -1,6 +1,6 @@
 import React from 'react';
 import Routes from "./routes"
-
+import "./i18n";
 
 function App() {
   return (

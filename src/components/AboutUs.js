@@ -35,8 +35,8 @@ const AboutUs = () => {
               </div>
               <iframe
                 className="videoOnly"
-                width="640"
-                height="360"
+                width="450"
+                height="300"
                 src="https://video.recordonce.com/embed/ZL7KxJp9gUu"
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

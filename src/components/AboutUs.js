@@ -33,6 +33,15 @@ const AboutUs = () => {
                   <img src={mBottom} alt="" className="img-fluid bottom" />
                 </div>
               </div>
+              <iframe
+                className="videoOnly"
+                width="640"
+                height="360"
+                src="https://video.recordonce.com/embed/ZL7KxJp9gUu"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </Col>
           </Row>
         </Container>

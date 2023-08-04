@@ -3028,10 +3028,21 @@ body[data-layout-mode="dark"] .home-6 .bg-overlay {
 .mockup.loaded .part .top {
   transform: translate3d(0, 0, -11px) rotateX(90deg) scale(1, 1);
 }
+.videoOnly {
+  display: none;
+}
 
 @media (max-width: 768px) {
   .mockup {
     perspective: 7000px;
+  }
+}
+@media (max-width: 800px) {
+  .mockup {
+    display: none;
+  }
+  .videoOnly {
+    display: block;
   }
 }
 

@@ -5,6 +5,7 @@ import { Container, Row, Col, Navbar, Nav } from "react-bootstrap";
 import logoLight from "../assets/images/logo.png";
 import logoDark from "../assets/images/logo.png";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
   // light-dark mode button
@@ -46,6 +47,8 @@ const Footer = () => {
   //       setLeftPosition("-189px");
   //     }
   //   };
+
+  const { t } = useTranslation();
 
   return (
     <React.Fragment>
@@ -103,42 +106,42 @@ const Footer = () => {
                 </div>
               </div>
             </Col>
-            <div className="col-lg-8 mt-5">
+            <div className="col-lg-12 mt-5">
               <Nav className="list-inline d-sm-flex justify-content-between footer-link mb-0 nav nav-color">
                 <Nav.Item className="list-inline-item nav-color">
                   <Nav.Link href="#home">
                     {" "}
-                    <span className="nav-color"> Home</span>
+                    <span className="nav-color">{t("Home")} </span>
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="list-inline-item">
                   <Nav.Link href="#about">
-                    <span className="nav-color">About Us</span>
+                    <span className="nav-color">{t("About Us")}</span>
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="list-inline-item">
                   <Nav.Link href="#features">
-                    <span className="nav-color">Features</span>
+                    <span className="nav-color">{t("Features")}</span>
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="list-inline-item">
                   <Nav.Link href="#pricing">
-                    <span className="nav-color">Pricing</span>
+                    <span className="nav-color">{t("Pricing")}</span>
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="list-inline-item">
                   <Nav.Link href="#app">
-                    <span className="nav-color">Application</span>
+                    <span className="nav-color">{t("Application")}</span>
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="list-inline-item">
                   <Nav.Link href="#team">
-                    <span className="nav-color">Team</span>
+                    <span className="nav-color">{t("Team")}</span>
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item className="list-inline-item">
                   <Nav.Link href="#contact">
-                    <span className="nav-color">Contact</span>
+                    <span className="nav-color">{t("Contact")}</span>
                   </Nav.Link>
                 </Nav.Item>
               </Nav>

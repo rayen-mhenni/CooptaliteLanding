@@ -184,11 +184,11 @@ const Navbar1 = () => {
 
               </div>
 
-              <div className="ms-auto">
+              {/* <div className="ms-auto">
                 <Link to="#" className="btn bg-gradiant">
                 {t("Contact us")}
                 </Link>
-              </div>
+              </div> */}
 
             </div>
           </Container>

@@ -41,7 +41,7 @@ const Pricing = () => {
                     <li className="pricing-item"><del className="text-muted">Updates</del></li>
                     <li className="pricing-item"><del className="text-muted">Premium support</del></li>
                   </ul>
-                  <Button to="#" className="btn bg-gradiant mt-4 w-100">Select this offer</Button>
+                  <Button to="#" className="btn bg-gradiant mt-4 w-100">{t("Select this offer")}</Button>
                 </div>
               </div>
             </Col>
@@ -70,7 +70,7 @@ const Pricing = () => {
                       <del className="text-muted">Premium support</del>
                     </li>
                   </ul>
-                  <Button to="#" className="btn bg-gradiant mt-4 w-100">Select this offer</Button>
+                  <Button to="#" className="btn bg-gradiant mt-4 w-100">{t("Select this offer")}</Button>
                 </div>
               </div>
             </Col>

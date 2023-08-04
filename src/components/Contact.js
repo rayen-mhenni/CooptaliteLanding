@@ -142,7 +142,7 @@ const Contact = () => {
                               id="submit"
                               name="send"
                               className="submitBnt btn btn-rounded bg-gradiant"
-                              value="Send Message"
+                              value={t("Send Message")}
                             />
                           )}
                         </div>

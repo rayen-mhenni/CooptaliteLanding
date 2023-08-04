@@ -42,7 +42,7 @@ const Team = () => {
                       <div class="img-container">
                         <img src={team1} />
                       </div>
-                      <h3>Nejd Kali</h3>
+                      <h3>Nejd Kalai</h3>
                       <p>CEO</p>
                       <div class="icons">
                         <a href="#">

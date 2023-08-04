@@ -14,8 +14,10 @@ import img5 from "../assets/images/testi/ss/img5.png";
 import img6 from "../assets/images/testi/ss/img6.png";
 import img7 from "../assets/images/testi/ss/img7.png";
 import img8 from "../assets/images/testi/ss/img8.png";
+import { useTranslation } from "react-i18next";
 
 const Application = () => {
+  const { t } = useTranslation();
   return (
     <React.Fragment>
       <section className="section app-slider bg-light" id="app">
@@ -24,7 +26,7 @@ const Application = () => {
             <Col lg={12}>
               <div className="sec-hd">
                 <span className="heading"></span>
-                <h2 className="sec-title">Our App Screenshots</h2>
+                <h2 className="sec-title">{t("OUR APP SCREENSHOTS")}</h2>
                 <span className="heading"></span>
               </div>
             </Col>

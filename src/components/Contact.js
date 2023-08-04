@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import emailjs from "@emailjs/browser";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
   const [error, setError] = useState(false);
   const [Success, setSuccess] = useState(false);
   const [loading, setloading] = useState(false);
+  const { t } = useTranslation();
   return (
     <React.Fragment>
       <section className="contact overflow-hidden" id="contact">
@@ -14,7 +16,7 @@ const Contact = () => {
             <Col lg={12}>
               <div className="sec-hd">
                 <span className="heading"></span>
-                <h2 className="sec-title">Contact Us!</h2>
+                <h2 className="sec-title">{t("CONTACT US!")}</h2>
                 <span className="heading"></span>
               </div>
             </Col>
@@ -77,7 +79,7 @@ const Contact = () => {
                             id="name"
                             type="text"
                             className="form-control contact-form"
-                            placeholder="Your name"
+                            placeholder="name"
                           />
                         </div>
                       </Col>
@@ -88,7 +90,7 @@ const Contact = () => {
                             id="email"
                             type="email"
                             className="form-control contact-form"
-                            placeholder="Your email"
+                            placeholder="email"
                           />
                         </div>
                       </Col>
@@ -101,7 +103,7 @@ const Contact = () => {
                             id="comments"
                             rows="6"
                             className="form-control contact-form h-auto"
-                            placeholder="Your message..."
+                            placeholder="message..."
                           ></textarea>
                         </div>
                       </Col>
@@ -156,14 +158,14 @@ const Contact = () => {
             <Col md={4}>
               <div>
                 <i className="mdi mdi-google-maps f-50 text-primary"></i>
-                <h5 className="mb-1">Location</h5>
+                <h5 className="mb-1">{t("Location")}</h5>
                 <p className="f-14 mb-0 text-muted">France, Paris</p>
               </div>
             </Col>
             <Col md={4}>
               <div className="mt-4 mt-lg-0">
                 <i className="mdi mdi-email f-50 text-primary"></i>
-                <h5 className="mb-1">Email</h5>
+                <h5 className="mb-1">{t("Email")}</h5>
                 <p className="f-14 mb-0 text-muted">
                   Email: cooptalite.contact@cooptalite.com
                 </p>
@@ -172,7 +174,7 @@ const Contact = () => {
             <Col md={4}>
               <div className="mt-4 mt-lg-0">
                 <i className="mdi mdi-phone f-50 text-primary"></i>
-                <h5 className="mb-1">Phone</h5>
+                <h5 className="mb-1">{t("Phone")}</h5>
                 <p className="f-14 mb-0 text-muted">+ 124 236 0693</p>
               </div>
             </Col>

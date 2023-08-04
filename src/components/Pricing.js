@@ -5,9 +5,13 @@ import {
   Col,
   Button
 } from 'react-bootstrap';
+import { useTranslation } from 'react-i18next';
 
 
 const Pricing = () => {
+
+  const { t } = useTranslation();
+
   return (
     <React.Fragment>
       <section className="section pricing" id="pricing">
@@ -16,7 +20,7 @@ const Pricing = () => {
             <div className="col-lg-12">
               <div className="sec-hd">
                 <span className="heading"></span>
-                <h2 className="sec-title">Pricing Plans</h2>
+                <h2 className="sec-title">{t("PRICING PLANS")}</h2>
                 <span className="heading"></span>
               </div>
             </div>
@@ -85,7 +89,7 @@ const Pricing = () => {
                     <li className="pricing-item"><li className="pricing-item">Updates</li></li>
                     <li className="pricing-item text-warning">Premium support</li>
                   </ul>
-                  <Button to="#" className="btn bg-gradiant mt-4 w-100">Select this offer</Button>
+                  <Button to="#" className="btn bg-gradiant mt-4 w-100">{t("Select this offer")}</Button>
                 </div>
               </div>
             </Col>

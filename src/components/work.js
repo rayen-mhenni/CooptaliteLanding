@@ -10,12 +10,16 @@ import img2 from "../assets/images/user/img-2.jpg";
 import img3 from "../assets/images/user/img-3.jpg";
 import img4 from "../assets/images/user/img-4.jpg";
 import img5 from "../assets/images/user/img-5.jpg";
+import { useTranslation } from "react-i18next";
 
 AOS.init({
   duration: 1800,
 });
 
-const work = () => {
+const Work = () => {
+  
+  const { t } = useTranslation();
+
   return (
     <React.Fragment>
       <section className="section work bg-light">
@@ -24,7 +28,7 @@ const work = () => {
             <Col lg={12}>
               <div className="sec-hd">
                 <span className="heading"></span>
-                <h2 className="sec-title">How It's work</h2>
+                <h2 className="sec-title">{t("HOW IT'S WORK")}</h2>
                 <span className="heading"></span>
               </div>
             </Col>
@@ -32,73 +36,60 @@ const work = () => {
           <Row className="align-items-center">
             <Col lg={6}>
               <div className="work-pra">
-                <h4 className="my-4">Recruiter</h4>
+                <h4 className="my-4">{t("Recruiter")}</h4>
                 <ul className="inline-item">
                   <li className="list-inline-item">
                     <i className="uil uil-bell"></i>
                     <p className="text-muted">
-                      The recruiter expresses his need by posting a job offer on
-                      the Cooptatio platform.
+                    {t("The recruiter expresses his need by posting a job offer on the Cooptatio platform.")}
                     </p>
                   </li>
                   <li className="list-inline-item">
                     <i className="uil uil-star"></i>
                     <p className="text-muted">
-                      Each Coopter embarks on a headhunting to find the ideal
-                      profile among their relationships .
+                    {t("Each Coopter embarks on a headhunting to find the ideal profile among their relationships .")}
                     </p>
                   </li>
                   <li className="list-inline-item">
                     <i className="uil uil-envelope-minus"></i>
                     <p className="text-muted">
-                      The recruiter instantly receives the profiles carefully
-                      recommended by our co-optors.
+                    {t("The recruiter instantly receives the profiles carefully recommended by our co-optors.")}
                     </p>
                   </li>
                   <li className="list-inline-item">
                     <i className="uil uil-heart-alt"></i>
                     <p className="text-muted">
-                      The recruiter selects the profiles prequalified by the
-                      co-operators for job interviews in order to choose the
-                      ideal candidate.
+                    {t("The recruiter selects the profiles prequalified by the co-operators for job interviews in order to choose the ideal candidate.")}
+                      
                     </p>
                   </li>
                 </ul>
               </div>
               <div className="work-pra">
-                <h4 className="my-4">Cooptor</h4>
+                <h4 className="my-4">{t("Cooptor")}</h4>
                 <ul className="inline-item">
                   <li className="list-inline-item">
                     <i className="uil uil-bell"></i>
                     <p className="text-muted">
-                      Our co-operators are notified instantly by email / mobile
-                      as soon as a published offer corresponds to their core
-                      business.
+                    {t("Our co-operators are notified instantly by email / mobile as soon as a published offer corresponds to their core business.")}
                     </p>
                   </li>
                   <li className="list-inline-item">
                     <i className="uil uil-star"></i>
                     <p className="text-muted">
-                      The co-operator's mission is to find excellent profiles to
-                      recommend among its network.
+                    {t("The co-operator's mission is to find excellent profiles to recommend among its network.")}
                     </p>
                   </li>
                   <li className="list-inline-item">
                     <i className="uil uil-envelope-minus"></i>
                     <p className="text-muted">
-                      Recommended candidates are notified instantly. The choice
-                      is up to them to accept or decline the job opportunity
-                      after that Once the cooptation is sent, the co-optor
-                      follows the recruitment pipeline (selection, validation,
-                      hiring, etc.)
+                    {t("Recommended candidates are notified instantly. The choice is up to them to accept or decline the job opportunity after that Once the cooptation is sent, the co-optorfollows the recruitment pipeline (selection, validation,hiring, etc.)")}
                     </p>
                   </li>
                   <li className="list-inline-item">
                     <i className="uil uil-heart-alt"></i>
                     <p className="text-muted">
-                      As soon as the co-opted proﬁle is recruited, the co-optor
-                      receives his cooptation prime, with the possibility of
-                      sharing it with the candidate.
+                    {t("As soon as the co-opted proﬁle is recruited, the co-optor receives his cooptation prime, with the possibility of sharing it with the candidate.")}
                     </p>
                   </li>
                 </ul>
@@ -140,4 +131,4 @@ const work = () => {
   );
 };
 
-export default work;
+export default Work;

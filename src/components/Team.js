@@ -9,8 +9,10 @@ import team3 from "../assets/images/team/team-3.png"
 import team4 from "../assets/images/team/team-4.jpg"
 import appStore from "../assets/images/img-appstore.png"
 import googleplay from "../assets/images/img-googleplay.png"
+import { useTranslation } from "react-i18next";
 
 const Team = () => {
+  const { t } = useTranslation();
   return (
     <React.Fragment>
       <section className="section team" id="team">
@@ -19,7 +21,7 @@ const Team = () => {
             <Col lg={12}>
               <div className="sec-hd">
                 <span className="heading"></span>
-                <h2 className="sec-title">Our Team!</h2>
+                <h2 className="sec-title">{t("OUR TEAM!")}</h2>
                 <span className="heading"></span>
               </div>
             </Col>
@@ -65,7 +67,7 @@ const Team = () => {
                         <img src={team2} />
                       </div>
                       <h3>Oussama Hassan Bannour</h3>
-                      <p>Techlead</p>
+                      <p>Tech lead</p>
                       <div class="icons">
                         <a href="#">
                           <i className="mdi mdi-twitter f-24 align-middle "></i>
@@ -89,7 +91,7 @@ const Team = () => {
                         <img src={team3} />
                       </div>
                       <h3>Rayen Mhenni</h3>
-                      <p>Techlead</p>
+                      <p>Tech lead</p>
                       <div class="icons">
                         <a href="#">
                           <i className="mdi mdi-twitter f-24 align-middle "></i>
@@ -125,10 +127,10 @@ const Team = () => {
             <Col xl={5} lg={10}>
               <div className="py-5">
                 <h1 className="display-4">
-                  What are you waiting for to get started?
+                {t("What are you waiting for to get started?")} 
                 </h1>
                 <p className="text-muted mt-3 f-18">
-                  You need skills, We find talent.
+                {t("You need skills, We find talent.")} 
                 </p>
                 <div className="d-flex mt-4">
                   <div className="app-store">

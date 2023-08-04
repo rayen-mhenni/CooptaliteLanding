@@ -11,21 +11,42 @@
     "Contact": "Contact",
     "Contact us": "Contact Nous",
     "FEATURES FOR OUR APP": "CARACTÉRISTIQUES DE NOTRE APPLICATION",
-
     "NETWORK": "RÉSEAUX",
     "GRATIFICATION": "GRATIFICATION",
     "TALENTS": "TALENTS",
     "INNOVATION": "INNOVATION",
     "AVAILABILITY": "DISPONIBILITÉ",
     "SECURITY": "SÉCURITÉ",
-
     "The Cooption consists of activating one's professional or personal network to recommend and support the candidacy of a recruiter or a person looking for a job": "La Cooptation consiste à activer son réseau professionnel ou personnel pour recommander et soutenir la candidature d'un recruteur ou d'une personne à la recherche d'un emploi.",
-    "This new way of recruiting is gratifying. By coopting a person around you, you receive a fair sum with a fair offer that will make a business for you.":"Cette nouvelle façon de recruter est gratifiante. En cooptant une personne autour de vous, vous recevez une somme équitable avec une offre équitable qui vous permettra de créer une entreprise.",
-    "This recruitment channel allows the recruiter to reach more candidates, even the most difficult ones. It also makes it possible to open up to new profiles, even the most “typical”.":"Ce canal de recrutement permet au recruteur d'atteindre plus de candidats, même les plus difficiles. Il permet également de s'ouvrir à de nouveaux profils, même les plus 'typés'.",
-    "A question ? A dysfunction ? The Cooptalite support team is there to serve you! Send us your feedBack from the plateform and we guarantee an answer in less than 24 hours.":"Une question ? Un dysfonctionnement ? L'équipe de support de Cooptalite est là pour vous servir ! Envoyez-nous votre feedBack depuis la plateforme et nous vous garantissons une réponse en moins de 24 heures.",
-    "No worries! Cooptalite hosts your personal data on highly secure servers based in Europe.":"Ne vous inquiétez pas ! Cooptalite héberge vos données personnelles sur des serveurs hautement sécurisés basés en Europe.",
-    "In addition to saving time, the recruiter is sure to find the profile that best matches the job offer since the candidate is recommended for his or her skills and the coopter will get a score for the match of the candidat to the post.":"En plus de gagner du temps, le recruteur est sûr de trouver le profil qui correspond le mieux à l'offre d'emploi puisque le candidat est recommandé pour ses compétences et que le coopteur obtient une note pour l'adéquation du candidat au poste.",
+    "This new way of recruiting is gratifying. By coopting a person around you, you receive a fair sum with a fair offer that will make a business for you.": "Cette nouvelle façon de recruter est gratifiante. En cooptant une personne autour de vous, vous recevez une somme équitable avec une offre équitable qui vous permettra de créer une entreprise.",
+    "This recruitment channel allows the recruiter to reach more candidates, even the most difficult ones. It also makes it possible to open up to new profiles, even the most “typical”.": "Ce canal de recrutement permet au recruteur d'atteindre plus de candidats, même les plus difficiles. Il permet également de s'ouvrir à de nouveaux profils, même les plus 'typés'.",
+    "A question ? A dysfunction ? The Cooptalite support team is there to serve you! Send us your feedBack from the plateform and we guarantee an answer in less than 24 hours.": "Une question ? Un dysfonctionnement ? L'équipe de support de Cooptalite est là pour vous servir ! Envoyez-nous votre feedBack depuis la plateforme et nous vous garantissons une réponse en moins de 24 heures.",
+    "No worries! Cooptalite hosts your personal data on highly secure servers based in Europe.": "Ne vous inquiétez pas ! Cooptalite héberge vos données personnelles sur des serveurs hautement sécurisés basés en Europe.",
+    "In addition to saving time, the recruiter is sure to find the profile that best matches the job offer since the candidate is recommended for his or her skills and the coopter will get a score for the match of the candidat to the post.": "En plus de gagner du temps, le recruteur est sûr de trouver le profil qui correspond le mieux à l'offre d'emploi puisque le candidat est recommandé pour ses compétences et que le coopteur obtient une note pour l'adéquation du candidat au poste.",
+    "HOW IT'S WORK": "COMMENT ÇA MARCHE",
+    "Recruiter": "Recruteur",
+    "The recruiter expresses his need by posting a job offer on the Cooptation platform.": "Le recruteur exprime son besoin en postant une offre d'emploi sur la plateforme Cooptation.",
+    "Each Coopter embarks on a headhunting to find the ideal profile among their relationships .": "Chaque Coopter se lance dans une chasse aux têtes pour trouver le profil idéal parmi ses relations.",
+    "The recruiter instantly receives the profiles carefully recommended by our co-optors.": "Le recruteur reçoit instantanément les profils soigneusement recommandés par nos coopteurs.",
+    "The recruiter selects the profiles prequalified by the co-operators for job interviews in order to choose the ideal candidate.": "Le recruteur sélectionne les profils préqualifiés par les coopérateurs pour les entretiens d'embauche afin de choisir le candidat idéal.",
+    "Cooptor": "Coopteur",
+    "Our co-operators are notified instantly by email / mobile as soon as a published offer corresponds to their core business.": "Nos coopérateurs sont informés instantanément par e-mail / mobile dès qu'une offre publiée correspond à leur activité principale.",
+    "The co-operator's mission is to find excellent profiles to recommend among its network.": "La mission du coopérateur est de trouver d'excellents profils à recommander parmi son réseau.",
+    "Recommended candidates are notified instantly. The choice is up to them to accept or decline the job opportunity after that Once the cooptation is sent, the co-optorfollows the recruitment pipeline (selection, validation,hiring, etc.)": "Les candidats recommandés sont informés instantanément. Une fois la cooptation envoyée, le coopteur suit le processus de recrutement (sélection, validation, embauche, etc.).",
+    "As soon as the co-opted proﬁle is recruited, the co-optor receives his cooptation prime, with the possibility of sharing it with the candidate.": "Dès que le proﬁle coopté est recruté, le coopteur reçoit sa prime de cooptation, avec la possibilité de la partager avec le candidat.",
+    
+    "PRICING PLANS": "PLANS DE PRIX",
+    "Select this offer":"Sélectionnez cette offre",
+    "OUR APP SCREENSHOTS":"NOTRE APPLICATION",
+    "OUR TEAM!":"NOTRE ÉQUIPE!",
+    "What are you waiting for to get started?":"Qu'attendez-vous pour commencer ?",
+    "You need skills, We find talent.":"Vous avez besoin de compétences, nous trouvons des talents.",
+    "CONTACT US!":"CONTACTEZ-NOUS !",
+    "Location":"Location",
+    "Email":"Email",
+    "Phone":"Téléphone"
 
-    "HOW IT'S WORK": "COMMENT ÇA MARCHE"
+
+
 
 }
